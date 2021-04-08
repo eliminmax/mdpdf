@@ -1,0 +1,3 @@
+#!/bin/bash
+
+markdown-pdf -f Letter -r portrait -b 0.75in -m '{"html":"true"}' -s $CSS_PATH $*
