@@ -6,7 +6,7 @@ Depends entirely on markdown-pdf, which can be installed with `npm install -g ma
 
 To install with the install script, run `./install.sh`
 
-If the `MDPDF_CSS_PATH` environment variable is set, `install.sh` will copy `custom.css` to that path. Otherwise, it will copy it to `~/.local/share/mdpdf/custom.css`. Similarly, if the `MDPDF_INSTALL_PATH` environment path is set the actual `mdpdf` executable is created there, otherwise, it's created at `~/.local/bin/mdpdf`, using `envsubst` to set the CSS path.
+If the `MDPDF_CSS_PATH` environment variable is set, `install.sh` will copy `custom.css` to that path. Otherwise, it will copy it to `~/.local/share/mdpdf/custom.css`. Similarly, if the `MDPDF_INSTALL_PATH` environment path is set, the actual `mdpdf` executable is created there, otherwise, it's created at `~/.local/bin/mdpdf`, using `envsubst` to set the CSS path.
 
-**install.sh is written with the assumption that these variables contain the full file path (as in ~/path/to/custom.css instead of ~/path/to). It is provided for convinience, with no promise that it will work as intended**
+**install.sh is written with the assumption that these variables contain the full file path (as in `~/path/to/custom.css` instead of `~/path/to`). It is provided for convinience, with no promise that it will work as intended**
 
